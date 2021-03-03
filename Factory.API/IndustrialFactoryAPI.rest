@@ -1,0 +1,20 @@
+@url = http://localhost:52224/api/measurement
+@measurementId = d55c687d-2d65-4298-bdf5-2c24aad82c4b
+
+###
+GET {{url}}
+
+###
+GET {{url}}/host
+
+###
+GET {{url}}/{{measurementId}}
+
+###
+POST {{url}}
+Content-Type: application/json
+
+{
+    "timestamp": "2021-01-01T12:33:12",
+    "value": 12 
+}
