@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{AC875CEF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{02A39853-BFC9-4767-9F86-CD85CC6C5522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndustrialFactory.API", "Factory.API\IndustrialFactory.API.csproj", "{4451836C-E512-4D77-83F0-B231DD9EB8E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndustrialFactory.API", "IndustrialFactory.API\IndustrialFactory.API.csproj", "{4451836C-E512-4D77-83F0-B231DD9EB8E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndustrialFactory.Core", "Factory.Core\IndustrialFactory.Core.csproj", "{E0708949-759E-4726-92E4-7AF3BFD5D5CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndustrialFactory.Core", "IndustrialFactory.Core\IndustrialFactory.Core.csproj", "{E0708949-759E-4726-92E4-7AF3BFD5D5CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A519626F-CAFE-4082-90BE-0823978B90C0}"
 EndProject

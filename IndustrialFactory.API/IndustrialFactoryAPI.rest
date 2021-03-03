@@ -2,7 +2,10 @@
 @measurementId = d55c687d-2d65-4298-bdf5-2c24aad82c4b
 
 ###
-DELETE {{url}}/{{measurementId}}
+GET {{url}}
+
+###
+GET {{url}}/host
 
 ###
 GET {{url}}/{{measurementId}}
