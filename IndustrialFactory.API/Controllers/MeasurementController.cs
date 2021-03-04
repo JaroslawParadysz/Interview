@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace IndustrialFactory.API.Controllers
 {
+    //Implement the following controller actions:
+    //  Add(MeasurementDetailsDto dto)
+    //  Update(MeasurementDetailsDto dto)
+    //  Delete(Guid id)
+    //Besides, complete the InMemoryRepository implementation.
+    //There is no bad solution.
+
     [Route("api/[controller]")]
     [ApiController]
     public class MeasurementController : ControllerBase

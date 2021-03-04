@@ -10,7 +10,7 @@ namespace IndustrialFactory.Core
         public static IServiceCollection AddIndustrialFactoryCore(this IServiceCollection services)
         {
             services.AddScoped<IIndustrialFactoryService, IndustrialFactoryService>();
-            services.AddSingleton<IRepository, InMemmoryRepository>();
+            services.AddSingleton<IRepository, InMemoryRepository>();
 
             return services;
         }
