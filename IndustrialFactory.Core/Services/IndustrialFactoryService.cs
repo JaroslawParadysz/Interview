@@ -1,5 +1,6 @@
 ﻿using Factory.Core.Repositories;
 using IndustrialFactory.Core.DTO;
+using IndustrialFactory.Core.Entities;
 using IndustrialFactory.Core.Exceptions;
 using System;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace IndustrialFactory.Core.Services
         
         public async Task<Guid> AddAsync(MeasurementDetailsDto dto)
         {
-            var toAdd = new Entities.Measurement { Id = Guid.NewGuid(), CreatedAt = DateTime.UtcNow, Timestamp = dto.Timestamp, Value = dto.Value };
+            var toAdd = new Measurement { Id = Guid.NewGuid(), CreatedAt = DateTime.UtcNow, Timestamp = dto.Timestamp, Value = dto.Value };
             await Repository.AddAsync(toAdd);
 
             return toAdd.Id;

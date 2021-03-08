@@ -10,7 +10,7 @@ namespace IndustrialFactory.API.Controllers
     //  Add(MeasurementDetailsDto dto)
     //  Update(MeasurementDetailsDto dto)
     //  Delete(Guid id)
-    //Besides, complete the InMemoryRepository implementation.
+    //Besides, complete the inmemory repository implementation.
     //There is no bad solution.
 
     [Route("api/[controller]")]
@@ -22,14 +22,6 @@ namespace IndustrialFactory.API.Controllers
         public MeasurementController(IIndustrialFactoryService service)
         {
             Service = service;
-        }
-
-        [HttpGet]
-        [Route("{id}")]
-        public async Task<ActionResult<MeasurementDetailsDto>> Get([FromRoute] Guid id)
-        {
-            var dto = await Service.GetAsync(id);
-            return Ok(dto);
         }
     }
 }
